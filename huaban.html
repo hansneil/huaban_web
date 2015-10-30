@@ -41,6 +41,12 @@
                             </div>
                         </div>
                     </div>
+                    <div class="search-box-fixed">
+                        <form method="get" class="new-search-unit-fixed" action="https://www.baidu.com/" >
+                            <input type="text" size="27" placeholder="搜索你喜欢的" />
+                            <a href="#" onclick="return false" class="go"></a>
+                        </form>   
+                    </div>
                     <div class="right-part">
                         <a href="#" id="login" class="login">登录</a>
                         <a href="#" id="register" class="register">注册</a>
@@ -48,40 +54,14 @@
                 </div>
             </div>
         </div>
-
-        <div id="login-div" class="login-div">
-            <div class="close"></div>
-            <div class="red-logo"></div>
-            <div class="holder">
-                <div class="word">
-                    使用第三方账号登录
-                </div>
-                <div class="buttons">
-                    <a href="#" title="使用微博账号登录" class="weibo"></a>
-                    <a href="#" title="使用QQ账号登录" class="tencent"></a>
-                    <a href="#" title="使用豆瓣账号登录" class="douban"></a>
-                    <a href="#" title="使用人人账号登录" class="renren"></a>
-                </div>
-                <div class="word">
-                    使用邮箱登录
-                </div>
-                <form method="post" class="mail-login">
-                    <input type="email" id="mail" class="input" placeholder="花瓣注册邮箱" />
-                    <input type="password" id="password" class="input" placeholder="密码" />
-                    <input type="submit" class="btn" id="login-btn" value="登录">
-                </form>
-                <div class="go-register">
-                    还没有花瓣账号？ <a id="switch">点击注册<small>>></small></a>
-                </div>
-            </div> 
-        </div>
-        <div id="register-div" class="register-div">
-            <div class="close"></div>
-            <div class="red-logo"></div>
-            <div class="holder">
-                <div class="word">
-                    用第三方账号注册花瓣
-                </div>
+    </div>
+    
+    <div id="login-div" class="login-div">
+        <div class="close"></div>
+        <div class="red-logo"></div>
+        <div class="holder">
+            <div class="word">
+                使用第三方账号登录
             </div>
             <div class="buttons">
                 <a href="#" title="使用微博账号登录" class="weibo"></a>
@@ -89,14 +69,42 @@
                 <a href="#" title="使用豆瓣账号登录" class="douban"></a>
                 <a href="#" title="使用人人账号登录" class="renren"></a>
             </div>
-            <div class="email-register">
-                使用邮箱注册
+            <div class="word">
+                使用邮箱登录
             </div>
-            <div class="go-login">
-                    已经有账号？ <a id="switch-on">登录到花瓣</a>
+            <form method="post" class="mail-login">
+                <input type="email" id="mail" class="input" placeholder="花瓣注册邮箱" />
+                <input type="password" id="password" class="input" placeholder="密码" />
+                <input type="submit" class="btn" id="login-btn" value="登录">
+            </form>
+            <div class="go-register">
+                还没有花瓣账号？ <a id="switch">点击注册<small>>></small></a>
+            </div>
+        </div> 
+    </div>
+    
+    <div id="register-div" class="register-div">
+        <div class="close"></div>
+        <div class="red-logo"></div>
+        <div class="holder">
+            <div class="word">
+                用第三方账号注册花瓣
             </div>
         </div>
+        <div class="buttons">
+            <a href="#" title="使用微博账号登录" class="weibo"></a>
+            <a href="#" title="使用QQ账号登录" class="tencent"></a>
+            <a href="#" title="使用豆瓣账号登录" class="douban"></a>
+            <a href="#" title="使用人人账号登录" class="renren"></a>
+        </div>
+        <div class="email-register">
+            使用邮箱注册
+        </div>
+        <div class="go-login">
+                已经有账号？ <a id="switch-on">登录到花瓣</a>
+        </div>
     </div>
+    
     <div id="mask">
     </div>
 </body>

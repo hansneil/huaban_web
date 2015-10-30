@@ -41,7 +41,7 @@ window.onload = function(){
 		loginDiv.style.display = "block";
 		
 		var mask = document.getElementById("mask");
-		//mask.classList.toggle("mask");
+		mask.classList.toggle("mask");
 	};
 	
 	var register = document.getElementById("register");
@@ -50,7 +50,7 @@ window.onload = function(){
 		regDiv.style.display = "block";
 		
 		var mask = document.getElementById("mask");
-		//mask.classList.toggle("mask");
+		mask.classList.toggle("mask");
 	};
 	
 	var loginClose = document.getElementById("login-div").childNodes[1];
@@ -59,7 +59,7 @@ window.onload = function(){
 		div.style.display = "none";
 		
 		var mask = document.getElementById("mask");
-		//mask.classList.remove("mask");
+		mask.classList.remove("mask");
 	};
 	
 	var regClose = document.getElementById("register-div").childNodes[1];
@@ -68,7 +68,7 @@ window.onload = function(){
 		div.style.display = "none";
 		
 		var mask = document.getElementById("mask");
-		//mask.classList.remove("mask");
+		mask.classList.remove("mask");
 	};
 	
 	var loginBtn = document.getElementById("login-btn");
